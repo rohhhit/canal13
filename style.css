@@ -1,0 +1,37 @@
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+body {
+  margin: 0;
+  padding: 0; }
+
+#wrapper {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto; }
+  #wrapper::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+.logo {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 6.17215%;
+  margin-left: 46.91392%; }
+  .logo:last-child {
+    margin-right: 0; }
+
+.header {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%; }
+  .header:last-child {
+    margin-right: 0; }
+
+/*# sourceMappingURL=style.css.map */
