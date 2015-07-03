@@ -372,4 +372,30 @@ body {
   .smallbox4:last-child {
     margin-right: 0; }
 
+footer {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  background-color: #EBEBEB;
+  font-family: Lato-Bold;
+  font-size: 16px;
+  color: #3A8397;
+  line-height: 19px; }
+  footer:last-child {
+    margin-right: 0; }
+  footer li {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 23.23176%;
+    list-style-type: none; }
+    footer li:last-child {
+      margin-right: 0; }
+    footer li .item2 {
+      font-family: Lato-Italic;
+      font-size: 16px;
+      color: #3A8397;
+      line-height: 19px; }
+
 /*# sourceMappingURL=style.css.map */
