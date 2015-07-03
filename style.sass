@@ -24,6 +24,7 @@ body
     border-top: 2px solid #FFCB05
     .smallbox
       @extend .yellowbox
+      top: -14.5px
       +shift(2)
       
 
@@ -54,6 +55,7 @@ body
     @extend .yellowbox
     +span-columns(1)
     +shift(5.5)
+    top: -14.5px
 .yellowbox
   +span-columns(1)
   text-align: center
@@ -62,7 +64,7 @@ body
   background-color: #FFCB05
   height: 29px
   position: absolute
-  top: -14.5px
+
 .lincon
   background-image: url('images/lincon.png')
   +span-columns(12)
@@ -76,20 +78,61 @@ body
   color: #FFFFFF
   line-height: 36px
   opacity: 1
-.bridge1
+.news1
   background-image: url('images/bridge1.png')
   +span-columns(6)
-
-  
+  position: relative
   height: 410px
   margin-top: 10px
-.bridge2
+  border-bottom: 2px solid #FFCB05
+  .smallbox
+    @extend .yellowbox
+    +shift(1)
+    +span-columns(2)
+    position: absolute
+    bottom: -14.5px
+      
+.news2
   background-image: url('images/bridge2.png')
   +span-columns(6)  
   height: 410px
   margin-top: 10px
+  position: relative
+  border-bottom: 2px solid #FFCB05
+  +omega()
+  .smallbox
+    @extend .yellowbox
+    +shift(1)
+    +span-columns(2)
+    position: absolute
+    bottom: -14.5px
+.storytext
+  +span-columns(12)
+  h4
+    +span-columns(6)
+    +omega(2n)
+    font-family: Lato-Black
+    font-size: 22px
+    color: #000000
+    letter-spacing: 0.34px
+    line-height: 24px
 
-  
+.bluebox
+  background-image: url('images/bluebox.png')
+  +span-columns(12)
+  height: 420px
+  position: relative
+  .smallbox
+    @extend .yellowbox
+    +span-columns(3)
+    +shift(4.5)
+    position: absolute
+    font-family: Lato-Regular
+    font-size: 14px
+    color: #000000
+    line-height: 17px
+    top: -14.5px
+
 
    
    
