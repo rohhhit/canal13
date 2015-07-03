@@ -108,7 +108,7 @@ body {
     .blackbox .smallbox:last-child {
       margin-right: 0; }
 
-.yellowbox, .header .headertxt .smallbox, .blackbox .smallbox, .news1 .smallbox, .news2 .smallbox, .bluebox .smallbox {
+.yellowbox, .header .headertxt .smallbox, .blackbox .smallbox, .news1 .smallbox, .news2 .smallbox, .bluebox .smallbox, .editorials .smallbox, .smallbox1, .smallbox2, .smallbox3, .smallbox4 {
   float: left;
   display: block;
   margin-right: 2.35765%;
@@ -119,7 +119,7 @@ body {
   background-color: #FFCB05;
   height: 29px;
   position: absolute; }
-  .yellowbox:last-child, .header .headertxt .smallbox:last-child, .blackbox .smallbox:last-child, .news1 .smallbox:last-child, .news2 .smallbox:last-child, .bluebox .smallbox:last-child {
+  .yellowbox:last-child, .header .headertxt .smallbox:last-child, .blackbox .smallbox:last-child, .news1 .smallbox:last-child, .news2 .smallbox:last-child, .bluebox .smallbox:last-child, .editorials .smallbox:last-child, .smallbox1:last-child, .smallbox2:last-child, .smallbox3:last-child, .smallbox4:last-child {
     margin-right: 0; }
 
 .lincon {
@@ -235,5 +235,141 @@ body {
     top: -14.5px; }
     .bluebox .smallbox:last-child {
       margin-right: 0; }
+
+.editorials {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  height: 260px;
+  margin-top: 30px;
+  position: relative;
+  border-top: 4px solid #FFCB05; }
+  .editorials:last-child {
+    margin-right: 0; }
+  .editorials .edit1 {
+    background-image: url("images/edit1.png");
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 23.23176%;
+    position: absolute;
+    height: 170px;
+    margin-top: 30px; }
+    .editorials .edit1:last-child {
+      margin-right: 0; }
+  .editorials .edit2 {
+    background-image: url("images/edit2.png");
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 23.23176%;
+    margin-left: 25.58941%;
+    position: absolute;
+    height: 170px;
+    margin-top: 30px; }
+    .editorials .edit2:last-child {
+      margin-right: 0; }
+  .editorials .edit3 {
+    background-image: url("images/edit3.png");
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 23.23176%;
+    margin-left: 51.17883%;
+    position: absolute;
+    height: 170px;
+    margin-top: 30px; }
+    .editorials .edit3:last-child {
+      margin-right: 0; }
+  .editorials .edit4 {
+    background-image: url("images/edit4.png");
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 23.23176%;
+    margin-left: 76.76824%;
+    position: absolute;
+    height: 170px;
+    margin-top: 30px; }
+    .editorials .edit4:last-child {
+      margin-right: 0; }
+  .editorials .smallbox {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 14.70196%;
+    margin-left: 42.64902%;
+    top: -14.5px;
+    font-family: Lato-Regular;
+    font-size: 14px;
+    color: #000000;
+    line-height: 17px; }
+    .editorials .smallbox:last-child {
+      margin-right: 0; }
+
+.smallbox1 {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  height: 25px;
+  bottom: 0px;
+  font-family: Lato-Italic;
+  font-size: 12px;
+  color: #000000;
+  line-height: 15px;
+  text-align: left;
+  padding-left: 5px; }
+  .smallbox1:last-child {
+    margin-right: 0; }
+
+.smallbox2 {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  height: 25px;
+  bottom: 0px;
+  font-family: Lato-Italic;
+  font-size: 12px;
+  color: #000000;
+  line-height: 15px;
+  text-align: left;
+  padding-left: 5px; }
+  .smallbox2:last-child {
+    margin-right: 0; }
+
+.smallbox3 {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  height: 25px;
+  bottom: 0px;
+  font-family: Lato-Italic;
+  font-size: 12px;
+  color: #000000;
+  line-height: 15px;
+  text-align: left;
+  padding-left: 5px; }
+  .smallbox3:last-child {
+    margin-right: 0; }
+
+.smallbox4 {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  height: 25px;
+  bottom: 0px;
+  font-family: Lato-Italic;
+  font-size: 12px;
+  color: #000000;
+  line-height: 15px;
+  text-align: left;
+  padding-left: 5px; }
+  .smallbox4:last-child {
+    margin-right: 0; }
 
 /*# sourceMappingURL=style.css.map */
