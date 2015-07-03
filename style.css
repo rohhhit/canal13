@@ -235,5 +235,63 @@ body {
     top: -14.5px; }
     .bluebox .smallbox:last-child {
       margin-right: 0; }
+  .bluebox ul {
+    padding-top: 20px; }
+    .bluebox ul span {
+      background-color: #FFCB05;
+      position: relative;
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 31.76157%;
+      margin-left: 29.85432%;
+      padding-left: 25px;
+      padding-top: 5px;
+      position: absolute;
+      top: 50%;
+      height: 30px;
+      font-family: Lato-Regular;
+      font-size: 14px;
+      color: #000000;
+      line-height: 17px; }
+      .bluebox ul span:last-child {
+        margin-right: 0; }
+    .bluebox ul li {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 31.76157%;
+      height: 370px;
+      list-style-type: none;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      position: relative; }
+      .bluebox ul li:last-child {
+        margin-right: 0; }
+    .bluebox ul .slide1 {
+      background-image: url("images/slide1.png");
+      background-repeat: no-repeat; }
+    .bluebox ul .slide2 {
+      background-image: url("images/slide2.png");
+      background-repeat: no-repeat; }
+    .bluebox ul .slide3 {
+      background-image: url("images/slide3.png");
+      background-repeat: no-repeat; }
+    .bluebox ul h3 {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 82.94039%;
+      margin-left: 4.2649%;
+      font-family: Lato-Black;
+      text-align: center;
+      margin-top: 250px;
+      font-size: 22px;
+      color: #FFFFFF;
+      letter-spacing: 0.34px;
+      line-height: 24px; }
+      .bluebox ul h3:last-child {
+        margin-right: 0; }
 
 /*# sourceMappingURL=style.css.map */

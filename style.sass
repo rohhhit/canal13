@@ -118,10 +118,12 @@ body
     line-height: 24px
 
 .bluebox
+
   background-image: url('images/bluebox.png')
   +span-columns(12)
   height: 420px
   position: relative
+  
   .smallbox
     @extend .yellowbox
     +span-columns(3)
@@ -133,6 +135,55 @@ body
     line-height: 17px
     top: -14.5px
 
+  ul
+    padding-top: 20px
+    
+    span
+      background-color: #FFCB05
+      position: relative
+      +span-columns(4)
+      +shift(3.5)
+      padding-left: 25px
+      padding-top: 5px
+      position: absolute
+      top: 50%
+      height: 30px
+      font-family: Lato-Regular
+      font-size: 14px
+      color: #000000
+      line-height: 17px
 
+
+    li
+      +span-columns(4)
+      height: 370px
+      list-style-type: none
+      display: flex
+      flex-direction: column
+      justify-content: center
+      position: relative
+
+    .slide1
+      background-image: url('images/slide1.png')
+      background-repeat: no-repeat        
    
-   
+    .slide2
+      background-image: url('images/slide2.png')
+      background-repeat: no-repeat
+    
+    .slide3
+      background-image: url('images/slide3.png')
+      background-repeat: no-repeat
+
+    h3
+
+      +span-columns(10)
+      +shift(0.5)
+      font-family: Lato-Black
+      text-align: center
+      margin-top: 250px
+      font-size: 22px
+      color: #FFFFFF
+      letter-spacing: 0.34px
+      line-height: 24px
+
