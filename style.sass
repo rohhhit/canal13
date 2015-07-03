@@ -134,6 +134,116 @@ body
     color: #000000
     line-height: 17px
     top: -14.5px
+.editorials
+  +span-columns(12)
+  height: 260px
+  margin-top: 30px
+  position: relative
+  border-top: 4px solid #FFCB05
+  .edit1
+    background-image: url('images/edit1.png')
+    +span-columns(3)
+    position: absolute
+    height: 170px
+    margin-top: 30px
+  
+  .edit2
+    background-image: url('images/edit2.png')
+    +span-columns(3)
+    +shift(3)
+    position: absolute
+    height: 170px
+    margin-top: 30px
+  .edit3
+    background-image: url('images/edit3.png')
+    +span-columns(3)
+    +shift(6)
+    position: absolute
+    height: 170px
+    margin-top: 30px
+  .edit4
+    background-image: url('images/edit4.png')
+    +span-columns(3)
+    +shift(9)
+    position: absolute
+    height: 170px
+    margin-top: 30px
+   
+
+  .smallbox
+    @extend .yellowbox
+    +span-columns(2)
+    +shift(5)
+    top: -14.5px
+    font-family: Lato-Regular
+    font-size: 14px
+    color: #000000
+    line-height: 17px
+.smallbox1
+  @extend .yellowbox
+  +span-columns(12)
+  height: 25px
+  bottom: 0px
+  font-family: Lato-Italic
+  font-size: 12px
+  color: #000000
+  line-height: 15px
+  text-align: left
+  padding-left: 5px
+.smallbox2
+  @extend .yellowbox
+  +span-columns(12)
+  height: 25px
+  bottom: 0px
+  font-family: Lato-Italic
+  font-size: 12px
+  color: #000000
+  line-height: 15px
+  text-align: left
+  padding-left: 5px
+.smallbox3
+  @extend .yellowbox
+  +span-columns(12)
+  height: 25px
+  bottom: 0px
+  font-family: Lato-Italic
+  font-size: 12px
+  color: #000000
+  line-height: 15px
+  text-align: left
+  padding-left: 5px
+.smallbox4
+  @extend .yellowbox
+  +span-columns(12)
+  height: 25px
+  bottom: 0px
+  font-family: Lato-Italic
+  font-size: 12px
+  color: #000000
+  line-height: 15px
+  text-align: left
+  padding-left: 5px
+
+footer
+  +span-columns(12)
+  background-color: #EBEBEB
+  span
+  font-family: Lato-Bold
+  font-size: 16px
+  color: #3A8397
+  line-height: 19px
+  li
+    +span-columns(3)
+    list-style-type: none
+    .item1
+    .item2
+      font-family: Lato-Italic
+      font-size: 16px
+      color: #3A8397
+      line-height: 19px
+    .item3
+      img
+        display
 
   ul
     padding-top: 20px
