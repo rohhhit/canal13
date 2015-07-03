@@ -8,8 +8,95 @@ body
   +outer-container
 .logo
   +span-columns(1)
-  +shift(5.5)
+  +shift(6)
 .header
-  +span-columns(12)
+  background-image: url('images/header.png')
+  +span-columns(11.30)
+  +shift()
+  margin-top: 10px
+  height: 440px
+  position: relative
+  .headertxt
+    background: rgba(61,131,150,0.5) //rgb equivalent of blue color and 0.5 opacity
+    +span-columns(12)
+    height: 115px
+    position: absolute
+    bottom: 0
+    border-top: 2px solid #FFCB05
+    .smallbox
+      @extend .yellowbox
+      +shift(2)
+      
 
+.story1
+  background-image: url('images/story1.png')
+  +span-columns(3)
+  +shift()
+  margin-top: 15px
+  height: 410px
+.story2
+  background-image: url('images/story2.png')
+  +span-columns(3)
+  +shift()
+  margin-top: 15px
+  height: 410px
+.story3
+  background-image: url('images/story3.png')
+  +span-columns(3)
+  +shift()
+  +omega()
+  margin-top: 15px
+  height: 409px
+.blackbox
+  +span-columns(11.30)
+  +shift()
+  background-image: url('images/blackbox.png')
+  margin-top: 30px
+  height: 746px
+  position: relative
+  .smallbox
+    @extend .yellowbox
+    +span-columns(1)
+    +shift(5.5)
+.yellowbox
+  +span-columns(1)
+  text-align: center
+  padding-top: 5px
+  font: $helvetica
+  background-color: #FFCB05
+  height: 29px
+  position: absolute
+  top: -14.5px
+.lincon
+  background-image: url('images/lincon.png')
+  +span-columns(11.30)
+  +shift()
+  height: 330px
+  margin-top: 10px
+  position:relative
+  text-align: center
+  font-family: italic
+  font-size: 32px
+  color: #FFFFFF
+  line-height: 36px
+  opacity: 1
+.bridge1
+  background-image: url('images/bridge1.png')
+  +span-columns(5)
+  +shift()
+  
+  height: 410px
+  margin-top: 10px
+.bridge2
+  background-image: url('images/bridge2.png')
+  +span-columns(5)
+  +shift(1)
+  
+  height: 410px
+  margin-top: 10px
+  +omega()
 
+  
+
+   
+   
