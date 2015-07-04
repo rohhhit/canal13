@@ -1,0 +1,63 @@
+.cover
+  +span-columns(12)
+  background-image: url('images/storyimage.png')
+  height: 363px
+  margin: 25px 0
+  position: relative
+  .smallbox
+    @extend .yellowbox
+    +span-columns(2)
+    bottom: 10%
+    +shift(2)
+
+#main
+  +span-columns(10)
+  +shift(2)
+  margin-bottom: 30px
+  h2
+    color: #3A8397
+  em
+    +span-columns(3)
+  p
+    +span-columns(11)
+    +shift(1)
+  .article
+    +span-columns(12)
+    margin-bottom: 40px
+    img
+      +span-columns(11)
+      +shift(1)
+      display: block
+      margin-bottom: 20px
+    small
+      +span-columns(4)
+      +shift(1)
+      display:block
+      color: #3a8397
+    strong
+      +span-columns(7)
+      text-align: right
+      font-family: Lato-Regular
+      font-size: 14px
+      color: #818181
+      line-height: 16px
+
+.highlight
+  width: 100%
+  position: relative
+  background-image: url('images/footerimage1.png')
+  height: 160px
+
+  .smallbox
+    @extend .yellowbox
+    +span-columns(3)
+    top: 20%
+    +shift(4.5)
+
+  h3
+    text-align: center
+    top: 30%
+    +span-columns(8)
+    +shift(2)
+    color: #ffffff
+    position: absolute

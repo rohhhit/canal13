@@ -1,5 +1,6 @@
 @import "bourbon/bourbon"
 @import "neat/neat"
+@import "article"
 
 body
   margin: 0
@@ -45,10 +46,9 @@ nav
     +span-columns(4)
     +omega()
     margin-top: 30px
-    float: right
     height: 50px
     .top
-      +span-columns(8)
+      +span-columns(10)
       text-align: right
       font-family: Lato-Regular
       font-size: 14px
@@ -56,7 +56,8 @@ nav
       color: #3A8397
       line-height: 20px
     .search
-      +span-columns(4)
+      +span-columns(2)
+      text-align: right
       padding-left: 10px
       padding-top: 5px
       border-left: 2px solid #3a8397
@@ -66,7 +67,7 @@ nav
 
 
 .yellowbox
-  +span-columns(1)
+  //+span-columns(1)
   text-align: center
   padding-top: 5px
   background-color: #FFCB05
@@ -93,6 +94,7 @@ header
     .smallbox
       @extend .yellowbox
       top: -14.5px
+      +span-columns(2)
       +shift(2)
     h1
       color: #ffffff
