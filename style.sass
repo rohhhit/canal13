@@ -7,9 +7,63 @@ body
   font-family: Lato-Regular
 #wrapper
   +outer-container
-.logo
-  +span-columns(1)
-  +shift(5.5)
+nav
+  +span-columns(12)
+  height: 80px
+  .left
+    +span-columns(4)
+    padding-top: 30px
+    .menu
+      +span-columns(1.5)
+      margin-top: 8px
+    .envivo
+      +span-columns(4)
+      margin-left: 2%
+      
+    .top
+      +span-columns(6)
+      margin-top: 4px
+      margin-left: 2%
+      span
+        font-family: Lato-Regular
+        font-size: 12px
+        color: #FFCB05
+        line-height: 15px
+      strong
+        font-family: Lato-Bold
+        display: block
+        font-size: 14px
+        color: #3A8397
+        line-height: 17px
+  .middle
+    +span-columns(4)
+    .logo
+      +span-columns(2.5)
+      +shift(4.75)
+      padding-top: 15px
+  .right
+    +span-columns(4)
+    +omega()
+    margin-top: 30px
+    float: right
+    height: 50px
+    .top
+      +span-columns(8)
+      text-align: right
+      font-family: Lato-Regular
+      font-size: 14px
+      display: block
+      color: #3A8397
+      line-height: 20px
+    .search
+      +span-columns(4)
+      padding-left: 10px
+      padding-top: 5px
+      border-left: 2px solid #3a8397
+      height: 40px
+
+
+
 
 .yellowbox
   +span-columns(1)
@@ -17,6 +71,7 @@ body
   padding-top: 5px
   background-color: #FFCB05
   height: 29px
+  color: #000000
   position: absolute
 
 header
@@ -128,7 +183,7 @@ section
   +span-columns(12)
   height: 330px
   margin-top: 50px
-  padding-top: 130px  
+  padding-top: 100px  
   border-top: 2px solid #FFCB07
   color: #FFFFFF
   position: relative
@@ -138,6 +193,7 @@ section
     font-style: italic
     font-size: 22px
     text-align: center
+    margin-bottom: 20
 
   .smallbox
     @extend .yellowbox
@@ -151,7 +207,7 @@ section
     +span-columns(12)
     color: #FFCB07
     font-size: 16px
-    margin-top: -10px
+    margin-top: 10px
     text-align: center
     font-family: Lato-Regular
 
@@ -371,14 +427,16 @@ footer
   background-color: #EBEBEB
   li
     list-style-type: none
+    margin-bottom: 10px
   span
     font-family: Lato-Bold
     font-size: 16px
     color: #3A8397
     line-height: 19px
-
+  ul
+    padding-left: 0
   .item1
-    +span-columns(3)
+    +span-columns(3 of 12)
     text-align: center
   .item2
     +span-columns(3)
